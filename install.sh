@@ -10,7 +10,7 @@ pip3 install frappe-bench
 export PATH="/usr/local/bin":$PATH
 #if your image is the desktop image, PATH="$HOME/.local/bin"
 source ~/.bashrc
-bench init frappe-bench
+bench init --frappe-branch version-14-hotfix frappe-bench
 cd frappe-bench
 
 # type sudo -u postgres psql to enter PSQL command prompt for the user called Postgres, which is the Database's default username
